@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background-color: #191919;
+            color: white;
+        }
+        li {
+            list-style-type: none;
+        }
+        .clear {
+            clear: both;
+        }
+        #page {
+            width: 1140px;
+            margin: 0 auto;
+        }
+        header {
+            width: 1140px;
+            height: 100px;
+            margin-top: 10px;
+        }
+        #logo {
+            float: left;
+        }
+        #top {
+            float: right;
+            margin: 30px 20px 0 0;
+        }
+        #top a:not(:last-child) {
+            margin-right: 20px;
+        }
+        nav {
+            width: 1140px;
+            height: 70px;
+            margin-top: 20px;
+        }
+        nav li {
+            float: left;
+        }
+        #left_nav {
+            float: left;
+        }
+        #right_nav {
+            float: right;
+            font-size: 24px;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 120px;
+        }
+
+        .content div:first-child {
+            width: 444px;
+            height: 662px;
+            margin-bottom: 12px;
+        }
+
+        .content div:not(:first-child) {
+            width: 855px;
+            margin-left: 25px;
+        }        
+        footer {
+            width: 1140px;
+            border-top: solid 1px #cccccc;
+            margin-top: 50px; 
+        }
+        footer #address li {
+            text-align: center;
+            color: #ACC7B4;
+            margin-top: 50px; 
+        }
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+        #address {
+            margin: auto;
+            color: white;
+        }
+        a:link, a:visited {
+            color: #ACC7B4;
+            text-decoration: none;
+        }
+        a:hover{
+           color:white;
+        }
+        #color_wh {
+            font-weight: bold;
+           color:white ;
+         }
+         h5 {
+            color: #ACC7B4;
+         }
+         p{
+            margin-bottom: 15px;
+         }
+         .content div a:hover img {
+            opacity: 0.5;
+        }
+        #Arrow {
+            float: right;
+         }
+    </style>
+
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" height="90px;"></a>
+            </div>
+            <div id="top">
+                <a href="1.html">관리</a>  <a href="2.html">구석</a>  <a href="3.html">기억</a>  <a href="4.html">상품</a>  <a id="color_wh" href="5.html">최근</a>
+            </div>
+        </header>
+        
+        <div class="clear"></div>
+        <div class="white">
+            <nav>
+                <ul id="left_nav">
+                    <li><a href="index.html">Home</a> - <a href="5.html">최근</a> - Detail </li>
+                </ul>
+                <ul id="right_nav">
+                    <li><b>가장 최근에 읽은 책을 소개해봅시다.</b></li>
+                </ul>
+            </nav>
+    </div>
+    <div class="content">
+        <div>
+            <a href="5-1.html"><img src="img/be1.png" width="444px;"></a>
+            <a href="5-2.html"><img src="img/be2.png" width="444px;"></a>
+            <a href="5-3.html"><img src="img/be3.png" width="444px;"></a>
+        </div>
+
+        <div>
+            <big><b>1/ Hello Coding HTML5+CSS3</b></big><br><br><br>
+            <p><big><b>읽은 이유</b></big> <br>
+                - 2학기 웹퍼블리싱 강의 계획서에 사오라고 적혀있어 강의 시간마다 읽었습니다.</p>
+            <p><big><b>읽은 시기</b></big><br>
+                - 대학교 1학년 2학기부터 읽기 시작해 몇 일 전 끝을 봤습니다.</p>
+            <p><big><b>읽은장소</b></big> <br>
+                - 계원예술대학교 디자인관 5층 505B 강의실, 집</p>
+            <p><big><b>내용</b></big> <br>
+                - 코딩으로 웹사이트를 제작할 수 있습니다. 저처럼 아무것도 모르는 컴맹도 어떻게 잘 
+                따라 쓰다 보면 이렇게 웹사이트 같은 것을 제작할 수 있는 간단한 내용입니다. 
+                하지만 문제가 생겨서 어디가 문제인지도 알겠는데 도대체가 되질 않는 어이 없는 경우가 
+                발생 합니다. 누가봐도 제가 잘못 쓴거라 뭐라 못하겠는데 서럽습니다.
+            </p>
+            <p><big><b>책 관련 이야기</b></big> <br>
+                - 책 사려고 근처 교보문구에 갔더니 재고가 없고... 알라딘에 갔더니 재고가 없고... 책방에 갔더니 재고가 없고...
+                주위 책 파는 집은 다 돌았는데 없어서 망연자실해서 인터넷을 뒤져본 기억이 있습니다.
+                인터넷에서 구매한 뒤 더 찾아보니 첫 구매자 할인 쿠폰 같은 걸 안 쓴 것을 보고 뒤늦게 한탄을 했었습니다.
+            </p>
+        </div>
+    </div>
+    <div id="Arrow">
+        <a  href="5-1.html"><img src="img/Arrow.png" width="20px"></a>
+    </div>
+    <div class="clear"></div><div class="clear"></div>
+
+    <footer>
+        <div id="footer_box">
+            <ul id="address">
+                <li>16038 경기도 의왕시 계원대학로 66(내손동) 계원 도서 사이트</li>
+                <li>66 Kaywondaehangno(Naeson-dong), Uiwang-si, Gyeonggi-do, Korea</li>
+                <li>대표전화 111- 1111-1111 | 팩스 000-000-0000 | E-mail kkk12@mail.com</li>
+            </ul>
+        </div>
+    </footer>
+        <div class="clear"></div>
+</body>
+</html>

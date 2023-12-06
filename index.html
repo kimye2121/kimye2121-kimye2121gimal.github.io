@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: #191919;
+        background-image: url('img/book_bg.jpg');
+        background-repeat: no-repeat;
+        background-position: 0 200px;
+        background-size: 100% auto;
+        }
+        /*배경 색 빼고는 배경 이미지 설정.*/
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            list-style-type: none;
+        }
+        .clear {
+            clear: both;
+        }
+        #page {
+            width: 1140px;
+            margin: 0 auto;
+        }
+        header {
+            width: 1140px;
+            height: 100px;
+            margin-top: 10px;
+        }
+        #logo {
+            float: left;
+        }
+        #top {
+            float: right;
+            margin: 30px 20px 0 0;
+        }
+        #top a:not(:last-child) {
+            margin-right: 20px;
+        }
+        /*탑 링크 가장 오른쪽만 마진 안주고 나머진 우측에 마진 주는 코드 다른 곳에도 넣어줘야함*/
+        nav {
+            width: 1140px;
+            height: 70px;
+            margin-top: 20px;
+        }
+        nav li {
+            float: left;
+        }
+        section {
+            float: left;
+            margin-top: 50px;
+            /*border: solid 1px rgb(0, 255, 128);*/
+        }
+        aside {
+            float: left;
+            margin-left: 20px;
+            margin-top: 590px; 
+            /*border: solid 1px rgb(89, 0, 255);*/
+        }
+        footer {
+            width: 1140px;
+            border-top: solid 1px #cccccc;
+            margin-top: 120px; 
+        }
+        footer #address li {
+            text-align: center;
+            color: #ACC7B4;
+        }
+        #footer_box {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+        #address {
+            margin: auto;
+            color: white;
+        }
+        #customer {
+            float: left;
+            margin: 20px 0 0 180px;
+        }
+        a:link, a:visited {
+            color: #ACC7B4;
+            text-decoration: none;
+        }
+        a:hover{
+           color:white;
+        }
+        .white {
+            color: white;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        h2 a:link,
+        h2 a:visited {
+            color: white;
+            text-decoration: none;
+        }
+        h2 a:hover {
+            color: #ACC7B4;
+        }
+        h2 a:not(:last-child) {
+        margin-right: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" height="90px;"></a>
+            </div>
+            <div id="top">
+                <a href="1.html">관리</a>  <a href="2.html">구석</a>  <a href="3.html">기억</a>  <a href="4.html">상품</a>  <a href="5.html">최근</a>
+            </div>
+        </header>
+        
+        <div class="clear"></div>
+        <div class="white">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> - Explanation</li>
+            </ul>
+        </nav>
+
+        <div class="clear"></div>
+        
+        
+        <section>
+            <h1>나만의 서재를 소개합니다!<br>
+            어렸을 적부터 지금까지 나를 만들어 온 책들, <br>
+            그 모든 것을 보여드립니다.</h1>
+        </section>
+    
+        <aside>
+            <h2>
+                <a href="1.html">관리</a>
+                <a href="2.html">구석</a>
+                <a href="3.html">기억</a>
+                <a href="4.html">상품</a>
+                <a href="5.html">최근</a>
+            </h2>
+        </aside>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="clear"></div>
+
+    <footer>
+        <div id="footer_box">
+            <ul id="address">
+                <li>16038 경기도 의왕시 계원대학로 66(내손동) 계원 도서 사이트</li>
+                <li>66 Kaywondaehangno(Naeson-dong), Uiwang-si, Gyeonggi-do, Korea</li>
+                <li>대표전화 111- 1111-1111 | 팩스 000-000-0000 | E-mail kkk12@mail.com</li>
+            </ul>
+        </div>
+    </footer>
+
+        <div class="clear"></div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background-color: #191919;
+            color: white;
+        }
+        li {
+            list-style-type: none;
+        }
+        .clear {
+            clear: both;
+        }
+        #page {
+            width: 1140px;
+            margin: 0 auto;
+        }
+        header {
+            width: 1140px;
+            height: 100px;
+            margin-top: 10px;
+        }
+        #logo {
+            float: left;
+        }
+        #top {
+            float: right;
+            margin: 30px 20px 0 0;
+        }
+        #top a:not(:last-child) {
+            margin-right: 20px;
+        }
+        nav {
+            width: 1140px;
+            height: 70px;
+            margin-top: 20px;
+        }
+        nav li {
+            float: left;
+        }
+        #left_nav {
+            float: left;
+        }
+        #right_nav {
+            float: right;
+            font-size: 24px;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+
+        .content div:first-child {
+            width: 368px;
+            height: 950px;
+            /*background-color: #448;*/
+        }
+
+        .content div:not(:first-child) {
+            width: 368px;
+            height: 509.34px;
+            /*background-color: #220;*/
+        }
+        table {
+            border-collapse: collapse;
+            width: 368px;
+            margin-top: 20px;
+        }
+        th, td {
+            all: unset;
+            display: table-cell;
+            margin-bottom: 4px;
+            padding: 4px;
+            border: 2px solid #ACC7B4;
+            padding: 8px;
+        } 
+        th {
+            width: 60px;
+        }
+        th[colspan="2"] {
+        height: 300px;
+        }
+        footer {
+            width: 1140px;
+            border-top: solid 1px #cccccc;
+            margin-top: 50px; 
+        }
+        footer #address li {
+            text-align: center;
+            color: #ACC7B4;
+        }
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+        #address {
+            margin: auto;
+            color: white;
+        }
+        a:link, a:visited {
+            color: #ACC7B4;
+            text-decoration: none;
+        }
+        a:hover{
+           color:white;
+        }
+        #color_wh {
+            font-weight: bold;
+            color:white ;
+         }
+         h3 {
+            margin-bottom: 40px;
+            font-weight: bold;
+         }
+         #Arrow {
+            float: right;
+         }
+    </style>
+
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" height="90px;"></a>
+            </div>
+            <div id="top">
+                <a href="1.html">관리</a>  <a href="2.html">구석</a>  <a id="color_wh" href="3.html">기억</a>  <a href="4.html">상품</a>  <a href="5.html">최근</a>
+            </div>
+        </header>
+        
+        <div class="clear"></div>
+        <div class="white">
+            <nav>
+                <ul id="left_nav">
+                    <li><a href="index.html">Home</a> - 기억</li>
+                </ul>
+                <ul id="right_nav">
+                    <li><b>지금까지 중 가장 기억에 남는 책을 소개해 봅니다.</b></li>
+                </ul>
+            </nav>
+
+        <div class="clear"></div>
+    </div>
+
+
+    <div class="content">
+        <div>
+            <img src="img/b5.jpg" width="368px;" height="509.34px">
+            <div>
+                <table>
+                    <tr>
+                        <th colspan="2">
+                            [이유]<br>
+                            이 책이 기억에 남는 이유는 책의 내용보다 중학교 때 제가 의지하고 항상 바라봐왔던 친구가 선물로 줬다는 이유 때문입니다.<br><br>
+                            제 생일 날 집 앞에 있으니 나오라고 연락하며 이 책을 건내주던 그 친구의 차가운 손이 기억납니다.<br>
+                            제가 가볍게 얘기하고 넘겼던, 책을 좋아한다던 그 한마디가 생각나서 준비했다며, 
+                            추운 겨울에 장갑 하나 끼지 않고 집 앞까지 찾아와 직접 건내주고 
+                            떠나간 모습이 이 책을 볼 때마다 떠올라서 기억에 남았습니다.
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>책 &nbsp;제목</th>
+                        <td>군주론</td>
+                    </tr>
+                    <tr>
+                        <th>저&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자</th>
+                        <td>니콜로 마키아벨리</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <img src="img/b13.jpg" width="368px;" height="509.34px">
+            <div>
+                <table>
+                    <tr>
+                        <th colspan="2">[이유]<br>
+                            제가 이 책으로 절 포함해서 4명을 울렸습니다. <br><br>
+                            어렸던 초등학생 저학년 당시 가벼운 마음으로 읽다 눈물을 흘리고, 
+                            그걸 보고 책을 보다 울어? 책이 뭐 별거라고... 하며 얘기하던 사람에게 그럼 읽어보던가하고 
+                            건내주니 몇 분 뒤 눈물을 흘리고 있던 모습이 떠오릅니다.<br><br>
+                            그리고 나중에 처음 읽었을 때 책이 이야기를 짧게 줄여놓은 책이라는 사실을 알고 
+                            책의 원본이 궁금해져 동네 도서관에서 찾아 읽고 더 슬프게 한 번 더 울었었다.
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>책 &nbsp;제목</th>
+                        <td>군주론</td>
+                    </tr>
+                    <tr>
+                        <th>저&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자</th>
+                        <td>J. M. 바스콘셀로스</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <li><img src="img/b12.png" width="368px;" height="509.34px">                <div>
+                    <table>
+                        <tr>
+                            <th colspan="2">[이유]<br>
+                            이 책은 어릴 적 초등학교 3~4학년 때 다니던 공부방에서 책 읽고 독서록을 채워 
+                            많이 채운 사람들에겐 상품을 주는 문화가 있었는데, 현재 1등을 재치고 1등 상품을 받기 위해 공부방 구석에서 읽고 
+                            눈물을 뚝뚝 흘려대던 기억떄문에 기억이 남는다.<br><br>
+                            책을 읽으며 그 초등학생이었던 애가 이 세상은... 부조리하다...!!! 왜 누군가 죽어야만 변화하는가...!!!! 이로 인해 현재는 변화한 것인가...!!!
+                            권리를 만들고 지키지 않는 이유가 무엇인가...!!! 이러고 헌법 찾아 보고 다녔던 게 생각난다.
+                        </th>
+                        </tr>
+                        <tr>
+                            <th>책 &nbsp;제목</th>
+                            <td>군주론</td>
+                        </tr>
+                        <tr>
+                            <th>저&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자</th>
+                            <td>니콜로 마키아벨리</td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+    </div>
+
+
+    <div id="Arrow">
+        <a  href="3.html"><img src="img/Arrow.png" width="20px"></a>
+    </div>
+    <div class="clear"></div>
+    <footer>
+        <div id="footer_box">
+            <ul id="address">
+                <li>16038 경기도 의왕시 계원대학로 66(내손동) 계원 도서 사이트</li>
+                <li>66 Kaywondaehangno(Naeson-dong), Uiwang-si, Gyeonggi-do, Korea</li>
+                <li>대표전화 111- 1111-1111 | 팩스 000-000-0000 | E-mail kkk12@mail.com</li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="clear"></div>
+
+</body>
+</html>
